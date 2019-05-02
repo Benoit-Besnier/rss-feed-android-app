@@ -1,4 +1,4 @@
-package com.example.feeded.element;
+package com.example.feeded.element.custom;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,11 +7,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Data
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-public class Credentials {
+@Setter @Getter
+@NoArgsConstructor @AllArgsConstructor
+public class UserSession {
     private String username;
-    private String password;
+    private String token;
 }

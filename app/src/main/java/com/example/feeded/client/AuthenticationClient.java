@@ -1,7 +1,7 @@
 package com.example.feeded.client;
 
-import com.example.feeded.element.Credentials;
-import com.example.feeded.element.UserSession;
+import com.example.feeded.element.custom.Credentials;
+import com.example.feeded.element.custom.UserSession;
 
 import org.androidannotations.rest.spring.annotations.Body;
 import org.androidannotations.rest.spring.annotations.Post;

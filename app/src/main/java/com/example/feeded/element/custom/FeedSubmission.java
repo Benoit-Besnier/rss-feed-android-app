@@ -1,4 +1,4 @@
-package com.example.feeded.element;
+package com.example.feeded.element.custom;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,5 @@
-package com.example.feeded.element;
+package com.example.feeded.element.custom;
 
-import java.io.Serializable;
 import java.util.List;
 
 import lombok.AllArgsConstructor;
@@ -12,8 +11,6 @@ import lombok.Setter;
 @Data
 @Setter @Getter
 @NoArgsConstructor @AllArgsConstructor
-public class UserDetails implements Serializable {
-    private String username;
-    private List<String> roles;
+public class PreferredFeedSubmission {
     private List<String> preferredFeeds;
 }

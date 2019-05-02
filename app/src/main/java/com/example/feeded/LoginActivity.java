@@ -9,8 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.feeded.client.AuthenticationClient;
-import com.example.feeded.element.Credentials;
-import com.example.feeded.element.UserSession;
+import com.example.feeded.element.custom.Credentials;
+import com.example.feeded.element.custom.UserSession;
 import com.example.feeded.handler.error.ConflictErrorHandler;
 import com.example.feeded.handler.error.ForbiddenErrorHandler;
 import com.example.feeded.service.SessionManager;

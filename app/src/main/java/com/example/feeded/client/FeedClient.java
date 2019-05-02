@@ -1,7 +1,7 @@
 package com.example.feeded.client;
 
 import com.example.feeded.element.Feed;
-import com.example.feeded.element.FeedSubmission;
+import com.example.feeded.element.custom.FeedSubmission;
 
 import org.androidannotations.rest.spring.annotations.Body;
 import org.androidannotations.rest.spring.annotations.Get;
