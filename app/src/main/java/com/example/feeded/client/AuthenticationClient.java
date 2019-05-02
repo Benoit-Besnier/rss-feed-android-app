@@ -10,7 +10,7 @@ import org.androidannotations.rest.spring.api.RestClientErrorHandling;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 
-@Rest(rootUrl = "http://192.168.0.13:80", converters = {MappingJackson2HttpMessageConverter.class})
+@Rest(rootUrl = "http://192.168.0.12:80", converters = {MappingJackson2HttpMessageConverter.class})
 public interface AuthenticationClient extends RestClientErrorHandling {
 
     @Post("/auth/register")

@@ -7,10 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Data
-@Setter
-@Getter
-@NoArgsConstructor
-@AllArgsConstructor
+@Setter @Getter
+@NoArgsConstructor @AllArgsConstructor
 public class UserSession {
     private String username;
     private String token;

@@ -12,10 +12,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Builder
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter @Setter
+@NoArgsConstructor @AllArgsConstructor
 @EqualsAndHashCode(of = {"link"})
 public class Entry implements Serializable {
 
